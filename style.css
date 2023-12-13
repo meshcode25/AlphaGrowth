@@ -600,8 +600,6 @@ footer{
     }
  
     .headercontainer{
-        width:100%;
-        max-width: 768px;
         background: #242526;
         margin:0 auto;
         display:flex;
