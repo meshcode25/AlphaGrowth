@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin:0;
 }
-
+ 
 nav{
    height:65px;
    line-height:65px;
@@ -16,7 +16,8 @@ nav a{
     color:#fff;
 }
 .headercontainer{
-    max-width: 1250px;
+    width:80%;
+    /*max-width: 1250px;*/
     background: #242526;
     margin:0 auto;
     display:flex;
@@ -25,12 +26,25 @@ nav a{
     position:relative;
     padding:0 30px;
 }
+.containerlinks{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 .searchcontainer{
-    color:#fff;
+   /* color:#fff;*/
+   color:purple;
 }
 .logo{
     font-size:27px;
-    font-weight: 600;
+    font-weight: 1200;
+}
+.phonenumber {
+    font-size:20px;
+    font-weight:900;
+    color:yellow;
 }
 .headercontainer .nav-links li{
 list-style: none;
@@ -47,8 +61,9 @@ font-weight: 500;
     justify-content: space-between;
 }
 .headercontainer .nav-links li a:hover{
-    background-color: #3a3b3c;
+    background-color: purple;
     color:#fff;
+/*    store this backgound color here:#3a3b3c;*/
 }
 .about-drop{
     margin-left:0;
@@ -111,6 +126,7 @@ font-weight: 500;
     position:absolute;
     transition:all 0.3s ease;
 }
+
 
 .row{
     display:flex;
@@ -572,4 +588,167 @@ footer{
 }
 .privacy{
     color:blue;
+}
+
+
+@media only screen and (max-width:768px){    
+    nav{
+       height:65px;
+       line-height:65px;
+        z-index:1000;
+        width:100%;    
+    }
+ 
+    .headercontainer{
+        width:100%;
+        max-width: 768px;
+        background: #242526;
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+        
+        /*padding:0 30px;*/
+        
+    }
+
+    .nav-links{
+    display:none;
+    opacity:0;
+    visibility:hidden;
+        
+    }
+
+    .containerlinks{
+        display:flex;
+        width:50%;
+        align-items:center;
+        justify-content: space-between;
+
+        
+    
+    }
+    .searchcontainer{
+    
+    }
+    phonenumber{
+
+    }
+    .hamburgermenucontainer{
+       padding-top:1rem;
+    }
+    .phonesize{
+        color:purple;
+    }
+    
+}
+
+
+@media only screen and (max-width:992px) and (min-width:768px){    
+    nav{
+       height:65px;
+       line-height:65px;
+        z-index:1000;
+        width:100%;    
+    }
+ 
+    .headercontainer{
+        width:100%;
+        max-width: 992px;
+        background: #242526;
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+        
+        /*padding:0 30px;*/
+        
+    }
+
+    .nav-links{
+        display:none;
+        visibility:hidden;
+        opacity: 0;
+
+    }
+
+    .containerlinks{
+        width:30%;
+        align-items:center;
+        justify-content: space-between;
+
+        
+    
+    }
+    .searchcontainer{
+    
+    }
+    phonenumber{
+
+    }
+    .hamburgermenucontainer{
+       padding-top:1rem;
+    }
+    .phonesize{
+        color:purple;
+    }
+}
+
+
+
+@media only screen and (max-width:1200px) and (min-width:992px){    
+    nav{
+       height:65px;
+       line-height:65px;
+        z-index:1000;
+        width:100%;    
+    }
+ 
+    .headercontainer{
+        width:90%;
+        background: #242526;
+        margin:0 auto;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+        
+        /*padding:0 30px;*/
+        
+    }
+
+    .nav-links{
+     
+
+    }
+
+    .containerlinks{
+      
+
+        
+    
+    }
+    .searchcontainer{
+    
+    }
+    .phonenumber{
+
+    }
+    .hamburgermenucontainer{
+       display:none;
+       visibility:hidden;
+       opacity: 0;
+    }
+ 
+}
+
+@media only screen and (min-width:1200px){
+
+    .hamburgermenucontainer{
+        display:none;
+        visibility:hidden;
+        opacity: 0;
+     }
 }
