@@ -590,7 +590,111 @@ footer{
     color:blue;
 }
 
-
+@media only screen and (max-width:480px){    
+    body{
+     overflow-x: hidden;
+     margin:0;
+     padding:0;
+     background-color: blue;
+ 
+    }
+ 
+    nav{
+       
+         z-index:1000;
+         background-color: yellow;
+         
+     }
+  
+     .headercontainer{
+ 
+         background: #242526;
+         display:flex;
+         align-items:center;
+         justify-content: space-between;
+ 
+         
+         /*padding:0 30px;*/
+         
+     }
+ 
+     .nav-links{
+     display:none;
+     opacity:0;
+     visibility:hidden;
+         
+     }
+ 
+     .containerlinks{
+         display:flex;
+         width:80%;
+         align-items:center;
+         justify-content: space-between;
+ 
+         
+     
+     }
+     .searchcontainer{
+     
+     }
+     .phonenumber{
+      display:none;
+ 
+     }
+     .hamburgermenucontainer{
+        padding-top:1rem;
+     }
+     .phonesize{
+         color:purple;
+     }
+     .phonenum{
+         display:none;
+     }
+     /*JUmbot tron Hook */
+     .jumbotron{
+         padding:0 30px;
+         background-color: blu;
+         position: absolute;
+         top:81px;
+         width:100%;
+         max-height:6vh;
+         display:block;
+         
+     }
+     .hookcontainer{
+     padding:30px 0 0 30px;
+     width:100%;  
+     margin-left:1rem;
+     }
+     .headerhook{
+         font-size:45px;
+         font-weight: 500;
+     }
+     .parahook1{
+         font-size:20px;
+         font-weight: 200px;
+     }
+     
+     .buttonhook{
+         padding:10px;
+         border-radius:6px;
+         
+         margin-top:5px;
+         background-color: green;
+         color:#fff;
+     }
+     .hookimgcontainer{ 
+         border: 2px solid black;   
+     }
+     
+     .hookimage{
+         position: center;
+         size: cover;
+         border-radius: 5px;
+         width:80%;
+        
+     }
+ }
 @media only screen and (max-width:768px){    
    body{
     overflow-x: hidden;
