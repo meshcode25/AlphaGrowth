@@ -593,7 +593,7 @@ footer{
 
 @media only screen and (max-width:768px){    
    body{
-    width:100%;
+
     margin:0;
     padding:0;
     background-color: blue;
@@ -601,14 +601,14 @@ footer{
    }
 
    nav{
-        width: 100%;
+      
         z-index:1000;
         background-color: yellow;
         
     }
  
     .headercontainer{
-        width:60%;
+
         background: #242526;
         display:flex;
         align-items:center;
