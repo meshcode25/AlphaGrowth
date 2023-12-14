@@ -601,14 +601,14 @@ footer{
    }
 
    nav{
-        max-width: 100%;
+        width: 100%;
         z-index:1000;
         background-color: yellow;
         
     }
  
     .headercontainer{
-        width:100%;
+        width:60%;
         background: #242526;
         display:flex;
         align-items:center;
