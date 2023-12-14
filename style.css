@@ -696,8 +696,8 @@ footer{
         
      }
      .reviewcontainer{
-        position:static;
-        
+        position:absolute;
+        top:auto;
         width:100%;
         background-color: blue;
         font-size:25px;
