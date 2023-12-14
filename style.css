@@ -597,7 +597,9 @@ footer{
     margin:0;
     padding:0;
    }
+
    .nav {
+        max-width: fit-content;
         z-index:1000;
         
     }
@@ -633,11 +635,12 @@ footer{
     .searchcontainer{
     
     }
-    phonenumber{
+    .phonenumber{
+     display:none;
 
     }
     .hamburgermenucontainer{
-       padding-top:rem;
+       padding-top:1rem;
     }
     .phonesize{
         color:purple;
