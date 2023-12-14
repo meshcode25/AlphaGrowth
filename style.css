@@ -592,6 +592,13 @@ footer{
 
 
 @media only screen and (max-width:768px){    
+    *{
+        width:100%;
+
+    }
+    body{
+        width:100%;
+    }
     nav{
        height:65px;
        line-height:65px;
@@ -602,7 +609,6 @@ footer{
     .headercontainer{
         width:100%;
         background: #242526;
-        margin:0 auto;
         display:flex;
         align-items:center;
         justify-content: space-between;
