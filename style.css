@@ -599,7 +599,7 @@ footer{
    }
 
    .nav {
-        max-width: fit-content;
+        max-width: 100%;
         z-index:1000;
         
     }
