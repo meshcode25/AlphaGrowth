@@ -590,7 +590,7 @@ footer{
     color:blue;
 }
 
-@media only screen and (max-width:320px){    
+@media only screen and (max-width:480px){    
     body{
      margin:0;
      padding:0;
@@ -607,7 +607,7 @@ footer{
      }
   
      .headercontainer{
- 
+        margin:0;
          background: #242526;
          display:flex;
          align-items:center;
@@ -656,6 +656,7 @@ footer{
          background-color: blu;
          position: absolute;
          top:81px;
+         margin:0;
          width:100%;
          max-height:6vh;
          display:block;
@@ -664,7 +665,7 @@ footer{
      .hookcontainer{
      padding:30px 0 0 30px;
      width:100%;  
-     margin-left:1rem;
+     margin:0;
      }
      .headerhook{
          font-size:45px;
@@ -684,14 +685,16 @@ footer{
          color:#fff;
      }
      .hookimgcontainer{ 
-         border: 2px solid black;   
+         border: 2px solid black; 
+         margin:0;  
      }
      
      .hookimage{
          position: center;
          size: cover;
          border-radius: 5px;
-         width:80%;
+         width:50%;
+         margin:0;
         
      }
  }
@@ -712,7 +715,7 @@ footer{
     }
  
     .headercontainer{
-
+        margin:0;
         background: #242526;
         display:flex;
         align-items:center;
@@ -769,7 +772,8 @@ footer{
     .hookcontainer{
     padding:30px 0 0 30px;
     width:100%;  
-    margin-left:1rem;
+    
+    margin:0;
     }
     .headerhook{
         font-size:45px;
@@ -790,13 +794,14 @@ footer{
     }
     .hookimgcontainer{ 
         border: 2px solid black;   
+        margin:0;
     }
     
     .hookimage{
         position: center;
         size: cover;
         border-radius: 5px;
-        width:80%;
+        width:60%;
        
     }
 }
