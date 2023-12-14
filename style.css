@@ -594,7 +594,6 @@ footer{
     body{
      margin:0;
      padding:0;
-     background-color: blue;
  
     }
  
@@ -652,11 +651,10 @@ footer{
      .jumbotron{
          padding:0 30px;
          background-color: blu;
-         position: absolute;
-         top:81px;
+         /* position: absolute;
+         top:81px; */
          margin:0;
          width:100%;
-         max-height:6vh;
          display:block;
          
      }
@@ -697,7 +695,8 @@ footer{
      }
      .reviewcontainer{
         position:absolute;
-        top:auto;
+        top:;
+        display:block;
         width:100%;
         background-color: blue;
         font-size:25px;
