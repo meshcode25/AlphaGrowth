@@ -598,8 +598,10 @@ footer{
     }
     body{
         width:100%;
+        overflow-x: hidden;
     }
     nav{
+        overflow-x:hidden;
        height:65px;
        line-height:65px;
         z-index:1000;
@@ -627,7 +629,7 @@ footer{
 
     .containerlinks{
         display:flex;
-        width:50%;
+        width:80%;
         align-items:center;
         justify-content: space-between;
 
@@ -641,12 +643,55 @@ footer{
 
     }
     .hamburgermenucontainer{
-       padding-top:1rem;
+       padding-top:rem;
     }
     .phonesize{
         color:purple;
     }
+    /*JUmbot tron Hook */
+    .jumbotron{
+        padding:0 30px;
+        background-color: blu;
+        position: absolute;
+        top:81px;
+        width:100%;
+        max-height:6vh;
+        display:block;
+        
+    }
+    .hookcontainer{
+    padding:30px 0 0 30px;
+    width:100%;  
+    margin-left:1rem;
+    }
+    .headerhook{
+        font-size:45px;
+        font-weight: 500;
+    }
+    .parahook1{
+        font-size:20px;
+        font-weight: 200px;
+    }
     
+    .buttonhook{
+        padding:10px;
+        border-radius:6px;
+        
+        margin-top:5px;
+        background-color: green;
+        color:#fff;
+    }
+    .hookimgcontainer{ 
+        border: 2px solid black;   
+    }
+    
+    .hookimage{
+        position: center;
+        size: cover;
+        border-radius: 5px;
+        width:80%;
+       
+    }
 }
 
 
