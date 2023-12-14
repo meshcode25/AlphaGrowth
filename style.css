@@ -596,10 +596,10 @@ footer{
     width:100%;
     margin:0;
     padding:0;
-    
+
    }
 
-   nav {
+   nav{
         max-width: 100%;
         z-index:1000;
         background-color: yellow;
@@ -646,6 +646,9 @@ footer{
     }
     .phonesize{
         color:purple;
+    }
+    .phonenum{
+        display:none;
     }
     /*JUmbot tron Hook */
     .jumbotron{
