@@ -694,13 +694,12 @@ footer{
         
      }
      .reviewcontainer{
- 
-        display:block;
-        width:100%;
+      
         background-color: blue;
         font-size:25px;
     }
     .review{ 
+        display:block;
         max-width:70%;
         margin:0 auto;
         padding:20px 0;   
