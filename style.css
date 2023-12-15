@@ -740,6 +740,29 @@ footer{
         display:block;
     }
  
+    chooseheade
+    chooseuscontainer
+    "awardsheader
+    "awardscontainer
+    blogscontainer"
+    .blogs{
+        display:block;
+    }
+    .servicesheader{
+
+    }
+    .servicescontainer{
+        display:block;
+    }
+    .quotecontainer{
+
+    }
+    .footercontainer{
+        display:block;
+    }
+    .final{
+        display:block;
+    }
  }
 @media only screen and (min-width:481px) and (max-width:768px){    
    body{
