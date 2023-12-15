@@ -592,18 +592,15 @@ footer{
 
 @media only screen and (max-width:480px){    
     nav{
-        position:sticky;
         width:100%;
         overflow-x: hidden;
-         z-index:1000;
-         height:65px;
+         z-index:3;
          background-color: yellow;
          
      }
   
      .headercontainer{
         width:100%;
-        margin:0;
         background: #242526;
         display:flex;
         align-items:center;
