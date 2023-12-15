@@ -603,7 +603,7 @@ footer{
      .headercontainer{
         height: 70px;
         width:100%;
-        position:static;
+        position:sticky;
         background: #242526;
         display:flex;
         align-items:center;
@@ -721,7 +721,7 @@ footer{
         position:static;
     }
     .casestudycontainer{
-        position:static
+        position:static;
      
     }
     .casestudy{
