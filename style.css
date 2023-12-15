@@ -733,8 +733,12 @@ footer{
     .testheader{
 
     }
-    testimonialscontainer"
-    "testimonials"
+    .testimonialscontainer{
+
+    }
+    .testimonials{
+        display:block;
+    }
     chooseheade
     chooseuscontainer
     "awardsheader
