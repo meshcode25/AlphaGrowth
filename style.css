@@ -761,8 +761,13 @@ footer{
     .services{
         display:block;
     }
+    .service{
+        display:block;
+        width:100%;
+        
+    }
     .service h1{
-        font-size: small;
+        font-size:larger;
     }
     .quotecontainer{
 
