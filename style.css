@@ -721,10 +721,10 @@ footer{
 
 
     .caseheadercontainer{
-        
+        position:static;
     }
     .casestudycontainer{
-    
+        position:static;
      
     }
     .casestudy{
@@ -740,7 +740,10 @@ footer{
         display:block;
     }
  
-    /* chooseheade
+    .chooseheader{
+    
+    }
+    /*
     chooseuscontainer
     "awardsheader
     "awardscontainer
@@ -752,6 +755,9 @@ footer{
 
     }
     .servicescontainer{
+        display:block;
+    }
+    .services{
         display:block;
     }
     .quotecontainer{
