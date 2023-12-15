@@ -597,6 +597,7 @@ footer{
          z-index:3;
          background-color: yellow;
          margin:0;
+         position: fixed;
      }
   
      .headercontainer{
