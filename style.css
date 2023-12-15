@@ -754,11 +754,15 @@ footer{
     .servicesheader{
 
     }
+    
     .servicescontainer{
         display:block;
     }
     .services{
         display:block;
+    }
+    .service h1{
+        font-size: small;
     }
     .quotecontainer{
 
@@ -767,6 +771,7 @@ footer{
         display:block;
     }
     .final{
+        margin:0;
         display:block;
     }
  }
