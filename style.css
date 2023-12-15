@@ -592,9 +592,11 @@ footer{
 
 @media only screen and (max-width:480px){    
     nav{
+        position:sticky;
         width:100%;
         overflow-x: hidden;
          z-index:1000;
+         height:65px;
          background-color: yellow;
          
      }
@@ -621,7 +623,7 @@ footer{
  
      .containerlinks{
          display:flex;
-         width:50%;
+         width:30%;
          align-items:center;
          justify-content: space-between;
  
